@@ -17,7 +17,7 @@ use Codexshaper\WooCommerce\Facades\Product;
 */
 
 Route::get('/', function () {
-    dd(Product::all());
+    // dd(Product::all());
     return view('welcome');
 });
 
